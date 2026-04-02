@@ -41,7 +41,7 @@ def load_json(filename):
             return json.load(f)
     except:
         return {}
-    pass
+    
 
 
 def create_cache(dictionary, filename):
@@ -58,7 +58,7 @@ def create_cache(dictionary, filename):
     """
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(dictionary, f, indent=4)
-    pass
+    
 
 
 def search_breed(breed_id):
@@ -90,7 +90,7 @@ def search_breed(breed_id):
         pass
 
     return None 
-    pass
+    
 
 
 def update_cache(breed_ids, cache_file):
@@ -129,7 +129,7 @@ def update_cache(breed_ids, cache_file):
     percentage = (new_success / len(breed_ids)) * 100
 
     return f"Cached data for {percentage}% of breeds"
-    pass
+    
 
 
 def get_longest_lifespan_breed(cache_file):
@@ -173,7 +173,7 @@ def get_longest_lifespan_breed(cache_file):
         return "No breeds found"
     
     return (best_name, best_life)
-    pass
+    
 
 
 def get_groups_above_cutoff(cutoff, cache_file):
@@ -214,7 +214,7 @@ def get_groups_above_cutoff(cutoff, cache_file):
             result[group_id] = count
 
     return result
-    pass
+    
 
 
 # Extra Credit

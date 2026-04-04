@@ -1,14 +1,18 @@
 # SI 201 HW6 (APIs, JSON, and Caching)
-# Your name:
-# Your student id:
-# Your email:
-# Who or what you worked with on this homework (including generative AI like ChatGPT):
+# Your name: Luciana Lacroix
+# Your student id: 38678419
+# Your email: Lucianal@umich.edu
+# Who or what you worked with on this homework (including generative AI like ChatGPT): ChatGPT for debugging  and checking rubric requirements.
+#Basically used AI to check if I was on the right track and to help me understand the JSON structure of the API responses. I also used it to help me debug
+#some of my error's I was getting on my code, I would ask it what's wrong to help me fix that. I did ask for help
+#specifically on like the 3rd function as I couldn't figure out how to get the group ID. 
 # If you worked with generative AI also add a statement for how you used it.
 # e.g.:
 # Asked ChatGPT for help debugging and understanding the JSON structure
 #
 # Did your use of GenAI on this assignment align with your goals and guidelines in your Gen AI contract? If not, why?
-#
+#Yes, I used it to help me understand my code better and to help me with debugging and rubric questions
+#so it aligned with all my goals I had put in my GENAI statement!
 # --- ARGUMENTS & EXPECTED RETURN VALUES PROVIDED --- #
 # --- SEE INSTRUCTIONS FOR FULL DETAILS ON METHOD IMPLEMENTATION --- #
 
